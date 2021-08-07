@@ -1,0 +1,32 @@
+ {
+ 
+  "expo": {
+    "name": "expo-firebase-crud",
+    "slug": "expo-firebase-crud",
+    "sdkVersion": "36.0.0",
+
+    "version": "1.0.0",
+    "platforms":["android","ios"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.utvam.expo_firebase_crud_master",
+      "versionCode": 1
+      }
+    
+  }
+}
